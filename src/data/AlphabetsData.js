@@ -4,7 +4,7 @@ const AlphabetsData=
             "id":1,
             "name":"ka",
             "image": './images/ka-1.png',
-            "mp3":"https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+            "mp3": "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
         },
         {
             "id":2,
