@@ -164,13 +164,13 @@ const AlphabetsData=
         },
         {
             "id":28,
-            "name":"sa-28",
+            "name":"sa",
             "image":"./images/sa-28.png",
             "mp3":"https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
         },
         {
             "id":29,
-            "name":"ha-29",
+            "name":"ha",
             "image":"./images/ha-29.png",
             "mp3":"https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
         },
