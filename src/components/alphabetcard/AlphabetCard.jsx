@@ -1,8 +1,16 @@
 import React from 'react'
+import './alphabetcard.css'
 
-function AlphabetCard() {
+function AlphabetCard( { alphabet }) {
   return (
-    <div>AlphabetCard</div>
+    <div id='card-container'>
+      <div id='card-image'>
+        <img src={alphabet.image} alt='alphabet'/>
+      </div>
+      <div id='card-title'>
+        {alphabet.name}
+      </div>
+    </div>
   )
 }
 

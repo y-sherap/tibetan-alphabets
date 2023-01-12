@@ -1,0 +1,18 @@
+#card-container {
+    width: 200px;
+    height:300px;
+    margin: 10px;
+    border: black solid 1px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    height:80%;
+}
+
+#card-title {
+    font-size: 20px;
+}
