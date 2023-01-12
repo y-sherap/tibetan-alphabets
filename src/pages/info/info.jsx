@@ -1,9 +1,9 @@
 import React from 'react'
 
-function info() {
+function Info() {
   return (
     <div>info</div>
   )
 }
 
-export default info
+export default Info
