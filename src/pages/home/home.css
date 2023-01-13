@@ -31,3 +31,10 @@ padding: 0 22% 10% 22%;
     flex-direction: row;
     margin-bottom: 2%;
 }
+
+button {
+    margin-right: 10px;
+    width: 100px;
+    padding: 3%;
+    font-family: futura;
+}
