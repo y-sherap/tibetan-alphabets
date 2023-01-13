@@ -6,8 +6,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow:  0 0 5px rgb(220, 215, 233);
+    box-shadow:  0 0 10px rgb(190, 183, 242);
+    /* box-shadow:  0 0 5px rgb(220, 215, 233); */
+
     background-color: white;
+    border: white 2px solid;
+    border-radius: 4%;
 
 }
 

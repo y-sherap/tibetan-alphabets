@@ -1,7 +1,10 @@
 body {
     margin: 0;
     font-family: futura;
-    color: red;
-    background-color: rgb(255, 255, 255);
+    /* color: rgb(88, 136, 177); */
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(238, 237, 243); */
+    background-image: linear-gradient(to right, rgb(232, 215, 215), rgb(238, 243, 99));
     margin: 0;
+    background-size: cover;
 }

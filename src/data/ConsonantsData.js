@@ -1,4 +1,4 @@
-const AlphabetsData=
+const ConsonantsData=
     [
         {
             "id":1,
@@ -182,4 +182,4 @@ const AlphabetsData=
         },
     ]
 
-export default AlphabetsData
+export default ConsonantsData

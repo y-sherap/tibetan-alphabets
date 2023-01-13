@@ -5,9 +5,9 @@ import './nav.css'
 function Nav() {
   return (
     <div id='nav-container'>
-        <div id='left-nav'>
+        {/* <div id='left-nav'>
             <Link to='/'>Home</Link>
-        </div>
+        </div> */}
         <div id='right-nav'>
             <Link to='/info'>Info</Link>
         </div>

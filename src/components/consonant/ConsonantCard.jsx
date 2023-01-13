@@ -1,7 +1,7 @@
 import React from 'react'
-import './alphabetcard.css'
+import './consonant.css'
 
-function AlphabetCard( { alphabet }) {
+function ConsonantCard( { alphabet }) {
 
 const playAudio = () => {
   const audio = new Audio(alphabet.mp3)
@@ -20,4 +20,4 @@ const playAudio = () => {
   )
 }
 
-export default AlphabetCard
+export default ConsonantCard
