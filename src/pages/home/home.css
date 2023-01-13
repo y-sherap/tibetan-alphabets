@@ -17,11 +17,17 @@
     margin-bottom: 2%;
 }
 
-#alphabets-container {
+.components-container {
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 padding: 0 22% 10% 22%;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
 }

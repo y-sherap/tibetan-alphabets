@@ -4,7 +4,7 @@ import ConsonantsData from '../../data/ConsonantsData'
 import ConsonantCard from '../../components/consonant/ConsonantCard'
 import VowelData from '../../data/VowelsData'
 import VowelCard from '../../components/vowel/VowelCard'
-import Info from '../info/Info'
+import Info from '../../components/info/Info'
 
 import { useState } from 'react'
 
@@ -31,7 +31,6 @@ function Home() {
       setShowInfo(true)
     }
   
-
   return (
     <div id="home-page">
       <div id='header'>
@@ -49,7 +48,7 @@ function Home() {
           <button onClick={clickInfo}>Info</button>
         </div>
       </div>
-      {showConsonants && (<div id='alphabets-container'>
+      {showConsonants && (<div className='components-container'>
         {ConsonantsData.map((alphabet) => (
           <ConsonantCard
             alphabet={alphabet}
@@ -57,7 +56,7 @@ function Home() {
         </div> )             
       }  
       {showVowles && (
-        <div id='alphabets-container'>
+        <div className='components-container'>
           {VowelData.map((vowel) => (
             <VowelCard 
               vowel={vowel}
@@ -65,8 +64,8 @@ function Home() {
           ))}
         </div>
       )}
-
-      {showInfo && (<Info />)}
+      
+      {showInfo && (<div className='components-container'><Info /></div>)}
       </div>
   )
 }
