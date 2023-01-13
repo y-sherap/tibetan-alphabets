@@ -4,22 +4,33 @@ import ConsonantsData from '../../data/ConsonantsData'
 import ConsonantCard from '../../components/consonant/ConsonantCard'
 import VowelData from '../../data/VowelsData'
 import VowelCard from '../../components/vowel/VowelCard'
+import Info from '../info/Info'
 
 import { useState } from 'react'
 
 function Home() {
   const [showConsonants, setShowConsonants] = useState(false)
   const [showVowles, setShowVowels] = useState(false)
+  const [showInfo, setShowInfo] = useState(true)
 
   const clickConsonants = e => {
     setShowConsonants(true)
     setShowVowels(false)
+    setShowInfo(false)
   }
 
   const clickVowels = e => {
     setShowVowels(true)
     setShowConsonants(false)
+    setShowInfo(false)
   }
+
+  const clickInfo = e => {
+      setShowVowels(false)
+      setShowConsonants(false)
+      setShowInfo(true)
+    }
+  
 
   return (
     <div id="home-page">
@@ -35,7 +46,7 @@ function Home() {
           <button onClick={clickVowels}>Vowels</button>
         </div>
         <div>
-          <button>Info</button>
+          <button onClick={clickInfo}>Info</button>
         </div>
       </div>
       {showConsonants && (<div id='alphabets-container'>
@@ -54,6 +65,8 @@ function Home() {
           ))}
         </div>
       )}
+
+      {showInfo && (<Info />)}
       </div>
   )
 }
