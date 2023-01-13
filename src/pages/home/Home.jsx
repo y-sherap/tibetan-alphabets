@@ -2,14 +2,23 @@ import React from 'react'
 import './home.css'
 import ConsonantsData from '../../data/ConsonantsData'
 import ConsonantCard from '../../components/consonant/ConsonantCard'
+import VowelData from '../../data/VowelsData'
+import VowelCard from '../../components/vowel/VowelCard'
 
 import { useState } from 'react'
 
 function Home() {
   const [showConsonants, setShowConsonants] = useState(false)
+  const [showVowles, setShowVowels] = useState(false)
 
   const clickConsonants = e => {
     setShowConsonants(true)
+    setShowVowels(false)
+  }
+
+  const clickVowels = e => {
+    setShowVowels(true)
+    setShowConsonants(false)
   }
 
   return (
@@ -23,7 +32,7 @@ function Home() {
           <button onClick={clickConsonants}>Consonants</button>
         </div>
         <div id='vowels'>
-          <button>Vowels</button>
+          <button onClick={clickVowels}>Vowels</button>
         </div>
         <div>
           <button>Info</button>
@@ -36,8 +45,18 @@ function Home() {
           /> ))}        
         </div> )             
       }  
+      {showVowles && (
+        <div id='alphabets-container'>
+          {VowelData.map((vowel) => (
+            <VowelCard 
+              vowel={vowel}
+            />
+          ))}
+        </div>
+      )}
       </div>
   )
 }
 
 export default Home
+
