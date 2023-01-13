@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
 }
 
 #header {
@@ -37,4 +38,5 @@ button {
     width: 100px;
     padding: 3%;
     font-family: futura;
+    border: 1px solid black;
 }

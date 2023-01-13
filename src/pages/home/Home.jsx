@@ -34,7 +34,7 @@ function Home() {
   return (
     <div id="home-page">
       <div id='header'>
-        <div id='header-title'>TIBETAN ALPHABETS</div>
+        <div id='header-title'>TIBETAN ALPHABET</div>
         <div id='header-caption'>Click on each alphabet to hear its pronounciation</div>
       </div>
       <div id='buttons'>

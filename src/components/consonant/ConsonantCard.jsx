@@ -16,6 +16,9 @@ const playAudio = () => {
       <div id='card-title'>
         {alphabet.name}
       </div>
+      <div id='card-phonetics'>
+        {alphabet.phonetics}
+      </div>
     </div>
   )
 }
