@@ -14,6 +14,9 @@ function VowelCard({vowel}) {
             <div id='card-title'>
               {vowel.name}
             </div>
+            <div id='card-phonetics'>
+              {vowel.phonetics}
+            </div>
           </div>
         )
       }

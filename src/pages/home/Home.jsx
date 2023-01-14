@@ -11,7 +11,7 @@ import { useState } from 'react'
 function Home() {
   const [showConsonants, setShowConsonants] = useState(false)
   const [showVowles, setShowVowels] = useState(false)
-  const [showInfo, setShowInfo] = useState(true)
+  const [showInfo, setShowInfo] = useState(true) 
 
   const clickConsonants = e => {
     setShowConsonants(true)
