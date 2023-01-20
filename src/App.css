@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    font-family: futura;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to right, rgb(232, 215, 215), rgb(238, 243, 99));
     margin: 0;
-    background-size: cover;
+    background-color: #eaecdb;
 }

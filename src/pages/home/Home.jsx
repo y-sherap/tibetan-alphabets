@@ -30,12 +30,13 @@ function Home() {
       setShowConsonants(false)
       setShowInfo(true)
     }
-  
+
   return (
     <div id="home-page">
       <div id='header'>
         <div id='header-title'>TIBETAN ALPHABET</div>
-        <div id='header-caption'>Click on each alphabet to hear its pronounciation</div>
+        <div id='header-caption'>Click on each card to hear its pronounciation</div>
+        <div>𓆟࿐</div>
       </div>
       <div id='buttons'>
         <div id='consonants'>

@@ -1,21 +1,20 @@
 #card-container {
     width: 200px;
     height:300px;
-    margin: 10px;
+    margin: 0 14px 25px 14px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow:  0 0 10px rgb(190, 183, 242);
     background-color: white;
-    border: white 2px solid;
+    border: rgb(222, 228, 234) 2px solid;
     border-radius: 4%;
     padding-bottom: 1%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #card-container:hover {
-    border: #a09cc0 2px solid;
     border-radius: 4%;
-    box-shadow:  0 0 10px #a09cc0;
+    background-color: rgb(196, 221, 228);
 }
 
 img {
@@ -25,9 +24,9 @@ img {
 
 #card-title {
     font-size: 20px;
+    color: #546368;
 }
 
 #card-phonetics {
     font-style: italic;
 }
-
