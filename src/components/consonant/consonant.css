@@ -6,7 +6,6 @@
     justify-content: center;
     text-align: center;
     background-color: white;
-    background-image: url('https://media.istockphoto.com/id/1279438266/vector/grid-paper-abstract-squared-background-with-green-graph-geometric-pattern-for-school.jpg?s=170667a&w=0&k=20&c=eH4HjR4P5MBhLysUS0l7VDCP_Tz5aTvkJ8owFWnaDf8=');
     border: rgb(222, 228, 234) 2px solid;
     border-radius: 4%;
     padding-bottom: 1%;
@@ -16,7 +15,7 @@
 
 #card-container:hover {
     border-radius: 4%;
-    background-color: rgb(196, 221, 228);
+    background-color: #97ad87;
 }
 
 img {

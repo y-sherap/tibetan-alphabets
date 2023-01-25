@@ -4,20 +4,37 @@
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-}
+    background: linear-gradient(-45deg, #7d4747, #41061c, #b69d9d, #290a02);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+ }
+ 
+ @keyframes gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
 
 #header {
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 2%;
-    color: #787c78;
+    color: #ecf8ec;
 }
+
 
 #header-title{
     font-size: 40px;
     margin-bottom: 2%;
-    color: #546368;
+    color: #ecf8ec;
 }
 
 .components-container {
@@ -41,9 +58,10 @@ button {
     width: 100px;
     padding: 3%;
     font-family: 'Open Sans', sans-serif;
-    background-color: #e8e4c6;
+    background-color: #97ad87
+    ;
     border: 1px #d0cdc7 solid;
-    color: #787c78;
+    color: #ecf8ec;
 }
 
 button:hover{
