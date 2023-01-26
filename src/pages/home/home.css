@@ -46,14 +46,12 @@ button {
     font-family: 'Open Sans', sans-serif;
     background-color: #97ad87
     ;
-    border: 1px #d0cdc7 solid;
+    border: 1px #97ad87 solid;
     color: #ecf8ec;
 }
 
 button:hover{
-    border: 1px   #a8aea8
-    solid;
-
+    border: 1px #d0cdc7 solid;
 }
 
 button:focus {
